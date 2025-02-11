@@ -1,0 +1,22 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Ignore audio and transcription output files
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+transcriptions/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore log and temporary files
+*.log
+*.tmp
